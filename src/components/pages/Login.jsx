@@ -1,9 +1,11 @@
-import {Link} from "react-router-dom"
-import logo from "../../assets/react.svg"
+import {Link} from "react-router-dom";
+import logo from "../../assets/react.svg";
+import "../../global.css"
+
 export default function Login(){
     return <div className="container">
         <header className="header">
-            <img src={logo} alt="" />
+            <img src={logo} alt="reactIcone" />
             <span>Entre com suas credenciais</span>
         </header>
         <form >
